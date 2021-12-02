@@ -28,3 +28,7 @@ main, #evaluation-form {
 #name-lastname, #email-casa {
   display: flex;
 }
+
+#rating {
+    display: flex;
+}
