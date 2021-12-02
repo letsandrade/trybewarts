@@ -1,16 +1,16 @@
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-around;
+  align-items: center;
 }
 
 .trybewarts-login {
-    display: flex;
-    max-height: 20px;
+  display: flex;
+  max-height: 20px;
 }
 
-main, #evaluation-form {
+main , #evaluation-form {
   display: flex;
 }
 
@@ -20,15 +20,15 @@ main, #evaluation-form {
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
-    display: flex;
-    justify-self: end;
+  height: 500px;
+  display: flex;
+  justify-self: end;
 }
 
-#name-lastname, #email-casa {
+#name-lastname , #email-casa {
   display: flex;
 }
 
-#rating, #concordar {
-    display: flex;
+#rating , #concordar {
+  display: flex;
 }
