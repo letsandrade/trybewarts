@@ -21,4 +21,6 @@ main, #evaluation-form {
 
 #trybewarts-forms-logo {
     height: 500px;
+    display: flex;
+    justify-self: end;
 }
