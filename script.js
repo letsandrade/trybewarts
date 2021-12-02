@@ -8,3 +8,13 @@ buttonLogin.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+// Pesquisei o removeAttribute em: https://pt.stackoverflow.com/questions/25332/verificar-se-tem-algum-checkbox-checado-e-habilitar-bot%C3%A3o
+const agreement = document.getElementById('agreement');
+const buttonSubmit = document.getElementById('submit-btn');
+agreement.addEventListener('click', () => {
+  buttonSubmit.removeAttribute("disabled");
+});
+
+const textArea = document.getElementById('textarea');
+
