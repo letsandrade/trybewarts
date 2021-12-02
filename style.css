@@ -24,3 +24,7 @@ main, #evaluation-form {
     display: flex;
     justify-self: end;
 }
+
+#name-lastname, #email-casa {
+  display: flex;
+}
