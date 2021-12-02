@@ -10,3 +10,10 @@
     max-height: 20px;
 }
 
+main, #evaluation-form {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+}
