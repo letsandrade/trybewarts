@@ -19,6 +19,7 @@ agreement.addEventListener('click', () => {
 // Referencia: https://htmldom.dev/count-the-number-of-characters-of-a-textarea/
 const textArea = document.getElementById('textarea');
 const counter = document.getElementById('counter')
+counter.innerHTML = '500 caracteres restantes'
 textArea.addEventListener('input', (event) => {
   const target = event.target;
   const maxLength = target.getAttribute('maxlength');
