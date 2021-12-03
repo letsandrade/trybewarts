@@ -17,4 +17,3 @@ agreement.addEventListener('click', () => {
 });
 
 const textArea = document.getElementById('textarea');
-
