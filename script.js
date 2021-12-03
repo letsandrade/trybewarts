@@ -13,17 +13,17 @@ buttonLogin.addEventListener('click', () => {
 const agreement = document.getElementById('agreement');
 const buttonSubmit = document.getElementById('submit-btn');
 agreement.addEventListener('click', () => {
-  buttonSubmit.removeAttribute("disabled");
+  buttonSubmit.removeAttribute('disabled');
 });
 
 // Referencia: https://htmldom.dev/count-the-number-of-characters-of-a-textarea/
 const textArea = document.getElementById('textarea');
-const counter = document.getElementById('counter')
-counter.innerHTML = '500 caracteres restantes'
+const counter = document.getElementById('counter');
+counter.innerHTML = '500';
 textArea.addEventListener('input', (event) => {
   const target = event.target;
   const maxLength = target.getAttribute('maxlength');
   const currentLength = target.value.length;
-  let currentNumber = maxLength - currentLength;
-  counter.innerHTML = currentNumber + ' caracteres restantes'
+  const currentNumber = maxLength - currentLength;
+  counter.innerHTML = currentNumber;
 });
